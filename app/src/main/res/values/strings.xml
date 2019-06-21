@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SQLite Assingment</string>
+    <string name="splash_text">Opening app please waiT</string>
+    <string name="delete">Delete Employee</string>
+    <string name="title_activity_display_contact">Employee Details</string>
+    <string name="hname">Enter Name</string>
+    <string name="hid">Enter Id</string>
+    <string name="hmobile">Enter Mobile</string>
+    <string name="hemail">Enter Email</string>
+    <string name="hposition">Enter Position</string>
+    <string name="button">Upload/Update</string>
+    <string name="deleteContact">Are you sure, you want to delete it.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="Addnewtitle">Enter Employee Details</string>
+</resources>

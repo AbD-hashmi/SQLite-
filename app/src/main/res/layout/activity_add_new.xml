@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowSoftInputMode="adjustResize"
+    android:fitsSystemWindows="true"
+    tools:context=".AddNew">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="@string/hname"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/position"
+        android:layout_below="@+id/name"
+        android:hint="@string/hposition"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="@string/hemail"
+        android:textColor="@color/black"
+        android:layout_below="@+id/position"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mobile"
+        android:hint="@string/hmobile"
+        android:layout_below="@+id/email"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/button"
+        android:onClick="run"
+        android:id="@+id/uploadButton"/>
+</RelativeLayout>
